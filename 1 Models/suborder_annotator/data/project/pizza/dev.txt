@@ -1,0 +1,836 @@
+Sentence: ['a', 'small', 'pizza', 'that', 'has', 'chicken', 'and', 'mushrooms', 'avoid', 'pepperoni']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [5]
+    Type: TOPPING
+    Index: [7]
+    Type: TOPPING
+    Index: [9]
+    Type: TOPPING
+
+Sentence: ['a', 'medium', 'olives', 'and', 'tuna', 'pizza', 'without', 'any', 'mushrooms']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2]
+    Type: TOPPING
+    Index: [4]
+    Type: TOPPING
+    Index: [8]
+    Type: TOPPING
+
+Sentence: ['a', 'pesto', 'and', 'peppers', 'pizza', 'without', '(', 'NOT', 'a', 'thin', 'crust']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: TOPPING
+    Index: [3]
+    Type: TOPPING
+    Index: [9, 10]
+    Type: STYLE
+
+Sentence: ['a', 'large', 'onion', 'and', 'tuna', 'on', 'thin', 'crust']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2]
+    Type: TOPPING
+    Index: [4]
+    Type: TOPPING
+    Index: [6, 7]
+    Type: STYLE
+
+Sentence: ['two', 'sausage', 'pizzas']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: TOPPING
+
+Sentence: ['a', 'medium', 'thin', 'crust', 'pizza', 'with', 'olives', 'and', 'no', 'onions']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2, 3]
+    Type: STYLE
+    Index: [6]
+    Type: TOPPING
+    Index: [9]
+    Type: TOPPING
+
+Sentence: ['a', 'pie', 'along', 'with', 'mushrooms', 'and', 'peppers', 'but', 'no', 'onions']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [4]
+    Type: TOPPING
+    Index: [6]
+    Type: TOPPING
+    Index: [9]
+    Type: TOPPING
+
+Sentence: ['one', 'small', 'combination', 'pizza', 'without', 'onions']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2]
+    Type: STYLE
+    Index: [5]
+    Type: TOPPING
+
+Sentence: ['a', 'small', 'pepperoni', 'and', 'sausage', 'pie', 'not', 'the', 'thin', 'crust']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2]
+    Type: TOPPING
+    Index: [4]
+    Type: TOPPING
+    Index: [8, 9]
+    Type: STYLE
+
+Sentence: ['one', 'large', 'stuffed', 'crust', 'cheese', 'pizza']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2, 3]
+    Type: STYLE
+    Index: [4]
+    Type: TOPPING
+
+Sentence: ['one', 'large', 'thin', 'crust', 'cheese', 'pizza']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2, 3]
+    Type: STYLE
+    Index: [4]
+    Type: TOPPING
+
+Sentence: ['a', 'pie', 'with', 'pesto', 'and', 'peppers', 'but', 'hold', 'on', 'thin', 'crust']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [3]
+    Type: TOPPING
+    Index: [5]
+    Type: TOPPING
+    Index: [9, 10]
+    Type: STYLE
+
+Sentence: ['a', 'small', 'chicken', 'pie', 'with', 'cheese', 'hold', 'the', 'ham']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2]
+    Type: TOPPING
+    Index: [5]
+    Type: TOPPING
+    Index: [8]
+    Type: TOPPING
+
+Sentence: ['three', 'large', 'pizzas', 'with', 'mushrooms']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [4]
+    Type: TOPPING
+
+Sentence: ['two', 'pizzas']
+NER:
+    Index: [0]
+    Type: NUMBER
+
+Sentence: ['a', 'medium', 'pie', 'with', 'tuna', 'and', 'mushrooms', 'also', 'add', 'some', 'cheese']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [4]
+    Type: TOPPING
+    Index: [6]
+    Type: TOPPING
+    Index: [10]
+    Type: TOPPING
+
+Sentence: ['a', 'medium', 'pizza', 'and', "i'd", 'like', 'chicken', 'on', 'it', 'as', 'well', 'as', 'cheese', 'but', 'please', 'no', 'onions']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [6]
+    Type: TOPPING
+    Index: [12]
+    Type: TOPPING
+    Index: [16]
+    Type: TOPPING
+
+Sentence: ['one', 'medium', 'pizza', 'and', "i'd", 'like', 'bacon', 'on', 'it', 'as', 'well', 'as', 'olives', 'but', 'no', 'peppers']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [6]
+    Type: TOPPING
+    Index: [12]
+    Type: TOPPING
+    Index: [15]
+    Type: TOPPING
+
+Sentence: ['three', 'pizzas', 'with', 'peppers', 'and', 'chicken', 'but', 'without', 'adding', 'ham']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [3]
+    Type: TOPPING
+    Index: [5]
+    Type: TOPPING
+    Index: [9]
+    Type: TOPPING
+
+Sentence: ['a', 'large', 'pizza', 'and', 'i', 'want', 'olives', 'and', 'cheese', 'as', 'well', 'as', 'chicken']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [6]
+    Type: TOPPING
+    Index: [8]
+    Type: TOPPING
+    Index: [12]
+    Type: TOPPING
+
+Sentence: ['a', 'medium', 'mushrooms', 'and', 'olives', 'pie']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2]
+    Type: TOPPING
+    Index: [4]
+    Type: TOPPING
+
+Sentence: ['one', 'large', 'pizza', 'with', 'tuna', 'cheese', 'and', 'olives']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [4]
+    Type: TOPPING
+    Index: [5]
+    Type: TOPPING
+    Index: [7]
+    Type: TOPPING
+
+Sentence: ['one', 'large', 'pie', 'with', 'olives', 'please', 'make', 'it', 'thin', 'crust', 'but', 'please', 'no', 'sausage']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [4]
+    Type: TOPPING
+    Index: [8, 9]
+    Type: STYLE
+    Index: [13]
+    Type: TOPPING
+
+Sentence: ['three', 'medium', 'hamburger']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2]
+    Type: TOPPING
+
+Sentence: ['two', 'pizzas']
+NER:
+    Index: [0]
+    Type: NUMBER
+
+Sentence: ['one', 'pizza', 'and', 'for', 'toppings', 'i', 'think', "i'll", 'go', 'for', 'mushrooms', 'and', 'peppers', 'today', 'oh', 'please', "don't", 'put', 'any', 'onions']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [10]
+    Type: TOPPING
+    Index: [12]
+    Type: TOPPING
+    Index: [19]
+    Type: TOPPING
+
+Sentence: ['a', 'small', 'pizza', 'and', "i'd", 'like', 'to', 'try', 'that', 'with', 'peppers', 'sausage', 'and', 'also', "i'll", 'try', 'pineapple']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [10]
+    Type: TOPPING
+    Index: [11]
+    Type: TOPPING
+    Index: [16]
+    Type: TOPPING
+
+Sentence: ['one', 'pie', 'along', 'with', 'pesto', 'and', 'ham', 'but', 'avoid', 'olives']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [4]
+    Type: TOPPING
+    Index: [6]
+    Type: TOPPING
+    Index: [9]
+    Type: TOPPING
+
+Sentence: ['two', 'medium', 'pizzas', 'with', 'pepperoni', 'and', 'cheese']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [4]
+    Type: TOPPING
+    Index: [6]
+    Type: TOPPING
+
+Sentence: ['two', 'small', 'pizzas', 'adding', 'tuna', 'and', 'peppers']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [4]
+    Type: TOPPING
+    Index: [6]
+    Type: TOPPING
+
+Sentence: ['one', 'small', 'ham', 'and', 'pesto', 'pie', 'with', 'no', 'cheese', ')']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2]
+    Type: TOPPING
+    Index: [4]
+    Type: TOPPING
+    Index: [8]
+    Type: TOPPING
+
+Sentence: ['a', 'pineapple', 'and', 'sausage', 'pie', 'with', 'no', 'tuna']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: TOPPING
+    Index: [3]
+    Type: TOPPING
+    Index: [7]
+    Type: TOPPING
+
+Sentence: ['one', 'small', 'pie', 'with', 'cheese', 'in', 'it', 'add', 'chicken', 'but', 'no', 'ham']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [4]
+    Type: TOPPING
+    Index: [8]
+    Type: TOPPING
+    Index: [11]
+    Type: TOPPING
+
+Sentence: ['a', 'medium', 'mushroom', 'and', 'tuna', 'pie', 'with', 'cheese']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2]
+    Type: TOPPING
+    Index: [4]
+    Type: TOPPING
+    Index: [7]
+    Type: TOPPING
+
+Sentence: ['two', 'small', 'pizzas', 'with', 'black', 'olives', 'and', 'jalapeno', 'peppers']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [4, 5]
+    Type: TOPPING
+    Index: [7, 8]
+    Type: TOPPING
+
+Sentence: ['one', 'cheese', 'pizza']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: TOPPING
+
+Sentence: ['a', 'small', 'deep', 'dish', 'pizza', 'with', 'meatballs', 'pecorino', 'and', 'fresh', 'basil', 'with', 'olive', 'oil']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2, 3]
+    Type: STYLE
+    Index: [6]
+    Type: TOPPING
+    Index: [7]
+    Type: TOPPING
+    Index: [10]
+    Type: TOPPING
+    Index: [12, 13]
+    Type: TOPPING
+
+Sentence: ['one', 'pie', 'with', 'small', 'size', 'along', 'with', 'chicken', 'cheese', 'but', 'without', 'olives']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [3]
+    Type: SIZE
+    Index: [7]
+    Type: TOPPING
+    Index: [8]
+    Type: TOPPING
+    Index: [11]
+    Type: TOPPING
+
+Sentence: ['two', 'medium', 'thin', 'crust', 'meat', 'lovers', 'pizzas']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2, 3]
+    Type: STYLE
+    Index: [4, 5]
+    Type: STYLE
+
+Sentence: ['an', 'onion', 'and', 'pepperoni', 'pie', 'with', 'sausage']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: TOPPING
+    Index: [3]
+    Type: TOPPING
+    Index: [6]
+    Type: TOPPING
+
+Sentence: ['a', 'medium', 'tuna', 'and', 'mushroom', 'pizza', 'with', 'no', 'bacon']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2]
+    Type: TOPPING
+    Index: [4]
+    Type: TOPPING
+    Index: [8]
+    Type: TOPPING
+
+Sentence: ['five', 'pies', 'with', 'peppers', 'pesto', 'and', 'onions']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [3]
+    Type: TOPPING
+    Index: [4]
+    Type: TOPPING
+    Index: [6]
+    Type: TOPPING
+
+Sentence: ['a', 'medium', 'ham', 'pizza', 'with', 'cheese', 'and', 'pesto']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2]
+    Type: TOPPING
+    Index: [5]
+    Type: TOPPING
+    Index: [7]
+    Type: TOPPING
+
+Sentence: ['a', 'small', 'pepper', 'and', 'mushroom', 'pizza', 'with', 'no', 'pineapple']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2]
+    Type: TOPPING
+    Index: [4]
+    Type: TOPPING
+    Index: [8]
+    Type: TOPPING
+
+Sentence: ['a', 'medium', 'veggie', 'pizza', 'with', 'mushrooms']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2]
+    Type: STYLE
+    Index: [5]
+    Type: TOPPING
+
+Sentence: ['a', 'small', 'tuna', 'pizza', 'with', 'cheese', 'and', 'no', 'peppers']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2]
+    Type: TOPPING
+    Index: [5]
+    Type: TOPPING
+    Index: [8]
+    Type: TOPPING
+
+Sentence: ['a', 'small', 'pizza', 'with', 'mushrooms', 'ham', 'and', 'no', 'cheese', ')']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [4]
+    Type: TOPPING
+    Index: [5]
+    Type: TOPPING
+    Index: [8]
+    Type: TOPPING
+
+Sentence: ['one', 'large', 'gluten-free', 'crust', 'sausage', 'pizza', 'with', 'spicy', 'red', 'sauce', 'and', 'arugula']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2, 3]
+    Type: STYLE
+    Index: [4]
+    Type: TOPPING
+    Index: [7, 8, 9]
+    Type: TOPPING
+    Index: [11]
+    Type: TOPPING
+
+Sentence: ['a', 'small', 'pie', 'with', 'onions', 'and', 'pineapple', 'for', 'toppings', 'hold', 'the', 'sausage']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [4]
+    Type: TOPPING
+    Index: [6]
+    Type: TOPPING
+    Index: [11]
+    Type: TOPPING
+
+Sentence: ['a', 'sausage', 'and', 'pineapple', 'pizza', 'with', 'no', 'tuna']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: TOPPING
+    Index: [3]
+    Type: TOPPING
+    Index: [7]
+    Type: TOPPING
+
+Sentence: ['a', 'pizza', 'and', 'make', 'it', 'large', 'and', 'put', 'some', 'cheese', 'on', 'there', 'and', 'bacon', "it's", 'important', 'you', 'leave', 'off', 'the', 'mushrooms']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [5]
+    Type: SIZE
+    Index: [9]
+    Type: TOPPING
+    Index: [13]
+    Type: TOPPING
+    Index: [20]
+    Type: TOPPING
+
+Sentence: ['one', 'pie', 'which', 'is', 'large', 'in', 'size', 'along', 'with', 'bacon', 'and', 'pepperoni', 'pineapple']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [4]
+    Type: SIZE
+    Index: [9]
+    Type: TOPPING
+    Index: [11]
+    Type: TOPPING
+    Index: [12]
+    Type: TOPPING
+
+Sentence: ['one', 'medium', 'pie', 'with', 'bacon', 'and', 'tuna', 'along', 'with', 'onions']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [4]
+    Type: TOPPING
+    Index: [6]
+    Type: TOPPING
+    Index: [9]
+    Type: TOPPING
+
+Sentence: ['two', 'bacon', 'and', 'onion', 'pizzas']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: TOPPING
+    Index: [3]
+    Type: TOPPING
+
+Sentence: ['a', 'pizza', 'with', 'sausage', 'bacon', 'and', 'no', 'cheese', ')']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [3]
+    Type: TOPPING
+    Index: [4]
+    Type: TOPPING
+    Index: [7]
+    Type: TOPPING
+
+Sentence: ['a', 'large', 'stuffed', 'crust', 'pizza', 'with', 'canadian', 'bacon']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2, 3]
+    Type: STYLE
+    Index: [6, 7]
+    Type: TOPPING
+
+Sentence: ['three', 'small', 'pizzas', 'with', 'bacon']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [4]
+    Type: TOPPING
+
+Sentence: ['two', 'large', 'with', 'tuna', 'and', 'chicken', 'skip', 'the', 'ham']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [3]
+    Type: TOPPING
+    Index: [5]
+    Type: TOPPING
+    Index: [8]
+    Type: TOPPING
+
+Sentence: ['one', 'pizza', 'and', 'i', 'only', 'need', 'the', 'small', 'size', 'today', 'for', 'toppings', 'let', 'me', 'have', 'mushrooms', 'and', 'ham', 'as', 'well', 'as', 'onions']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [7]
+    Type: SIZE
+    Index: [15]
+    Type: TOPPING
+    Index: [17]
+    Type: TOPPING
+    Index: [21]
+    Type: TOPPING
+
+Sentence: ['a', 'small', 'thin', 'crust', 'ham', 'and', 'pepper', 'pie']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2, 3]
+    Type: STYLE
+    Index: [4]
+    Type: TOPPING
+    Index: [6]
+    Type: TOPPING
+
+Sentence: ['one', 'large', 'with', 'pineapple', 'and', 'cheese', 'hold', 'the', 'peppers']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [3]
+    Type: TOPPING
+    Index: [5]
+    Type: TOPPING
+    Index: [8]
+    Type: TOPPING
+
+Sentence: ['a', 'small', 'pie', 'along', 'with', 'onions', 'mushrooms', 'but', 'hold', 'pesto']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [5]
+    Type: TOPPING
+    Index: [6]
+    Type: TOPPING
+    Index: [9]
+    Type: TOPPING
+
+Sentence: ['a', 'large', 'pie', 'with', 'pepperoni', 'chicken', 'but', 'i', 'need', 'to', 'avoid', 'onions']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [4]
+    Type: TOPPING
+    Index: [5]
+    Type: TOPPING
+    Index: [11]
+    Type: TOPPING
+
+Sentence: ['a', 'large', 'pizza', 'and', 'i', 'need', 'onions', 'on', 'it', 'as', 'well', 'as', 'ham', 'make', 'it', 'thin', 'crust']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [6]
+    Type: TOPPING
+    Index: [12]
+    Type: TOPPING
+    Index: [15, 16]
+    Type: STYLE
+
+Sentence: ['three', 'pizzas', 'with', 'bacon', 'and', 'onions', 'but', 'i', "don't", 'want', 'any', 'chicken']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [3]
+    Type: TOPPING
+    Index: [5]
+    Type: TOPPING
+    Index: [11]
+    Type: TOPPING
+
+Sentence: ['a', 'pizza', 'with', 'onions', 'and', 'ham', 'and', 'tuna']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [3]
+    Type: TOPPING
+    Index: [5]
+    Type: TOPPING
+    Index: [7]
+    Type: TOPPING
+
+Sentence: ['one', 'small', 'mushroom', 'pizza']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2]
+    Type: TOPPING
+
+Sentence: ['a', 'medium', 'pepper', 'and', 'onion', 'pie', 'with', 'sausage']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2]
+    Type: TOPPING
+    Index: [4]
+    Type: TOPPING
+    Index: [7]
+    Type: TOPPING
+
+Sentence: ['one', 'pizza', 'with', 'mushrooms', 'pesto', 'chicken']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [3]
+    Type: TOPPING
+    Index: [4]
+    Type: TOPPING
+    Index: [5]
+    Type: TOPPING
+
+Sentence: ['two', 'medium', 'ham', 'pizzas']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2]
+    Type: TOPPING
+
+Sentence: ['one', 'large', 'pizza', 'with', 'salami', 'and', 'italian', 'sausage']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [4]
+    Type: TOPPING
+    Index: [6, 7]
+    Type: TOPPING
+
+Sentence: ['five', 'large', 'meat', 'lovers', 'pizza']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2, 3]
+    Type: STYLE
+

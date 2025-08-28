@@ -1,0 +1,6 @@
+pandas
+pyarrow
+tabulate
+re
+os
+IPython

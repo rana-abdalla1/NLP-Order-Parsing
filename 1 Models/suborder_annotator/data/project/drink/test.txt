@@ -1,0 +1,27 @@
+Sentence: ['two', 'cans', 'of', 'coke']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: CONTAINERTYPE
+    Index: [3]
+    Type: DRINKTYPE
+
+Sentence: ['five', 'large', 'fantas']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2]
+    Type: DRINKTYPE
+
+Sentence: ['a', 'small', 'iced', 'tea']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2, 3]
+    Type: DRINKTYPE
+

@@ -1,0 +1,61 @@
+Sentence: ['one', 'large', 'pepsi']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2]
+    Type: DRINKTYPE
+
+Sentence: ['two', 'large', 'mountain', 'dews']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2, 3]
+    Type: DRINKTYPE
+
+Sentence: ['a', 'medium', 'fanta']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2]
+    Type: DRINKTYPE
+
+Sentence: ['two', 'dr', 'peppers']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1, 2]
+    Type: DRINKTYPE
+
+Sentence: ['a', 'small', '7-up']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2]
+    Type: DRINKTYPE
+
+Sentence: ['six', 'medium', 'doctor', 'peppers']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2, 3]
+    Type: DRINKTYPE
+
+Sentence: ['a', 'large', 'iced', 'tea']
+NER:
+    Index: [0]
+    Type: NUMBER
+    Index: [1]
+    Type: SIZE
+    Index: [2, 3]
+    Type: DRINKTYPE
+
